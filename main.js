@@ -17,7 +17,7 @@ const sizes = {
 };
 
 // Debug
-const gui = new dat.GUI();
+// const gui = new dat.GUI();
 
 // Scene
 const scene = new THREE.Scene();
