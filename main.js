@@ -168,7 +168,6 @@ const loop = () => {
 
     sphereMesh.rotation.y = 0.3 * elapsedTime;
     knotMesh.rotation.z = -0.1 * elapsedTime;
-
     torusMesh1.rotation.y = 0.8 * elapsedTime;
     torusMesh2.rotation.x = 0.8 * elapsedTime;
     torusMesh3.rotation.x = 0.8 * elapsedTime;
