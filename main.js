@@ -1,14 +1,14 @@
 import * as THREE from 'three';
 import gsap from 'gsap';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import * as dat from 'dat.gui';
+// import * as dat from 'dat.gui';
 import './style.css';
 
 // Loading
 const textureLoader = new THREE.TextureLoader();
 
-const normalTexture = textureLoader.load('./public/textures/base.jpg');
-const normalTexture2 = textureLoader.load('./public/textures/lines.jpg');
+const normalTexture = textureLoader.load('./textures/base.jpg');
+const normalTexture2 = textureLoader.load('./textures/lines.jpg');
 
 // Sizes
 const sizes = {
